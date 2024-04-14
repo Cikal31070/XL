@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>XL.NET</title>
+
+    <!-- Meta Registration -->
+    <meta charset="utf-8">
+	<meta name="keyword" content="Paket internet murah, Internet cepat, Penyedia internet terbaik di Indonesia, Harga paket internet terbaru, Internet tanpa batas kuota, Jaringan internet stabil, Penyedia internet tercepat di Indonesia, Layanan internet untuk bisnis, Internet untuk gaming, Solusi internet untuk rumah dan kantor, Internet fiber optik, Paket internet unlimited, Promo paket internet terbaru, Harga paket internet terjangkau, Internet untuk remote work, Penyedia internet yang ramah pelanggan, Keamanan internet yang terjamin, Paket internet terbaik untuk keluarga, Layanan internet dengan jangkauan terluas, Internet mobile untuk kemudahan akses di mana saja, internet, internet indonesia">
+	<meta name="author" content="terra.net.id">
+	<meta name="description" content="Terra Sigma merupakan perusahaan penyedia layanan internet yang beroperasi di Indonesia. Kami menawarkan berbagai paket internet dengan kecepatan yang berbeda-beda, mulai dari yang paling dasar hingga yang paling tinggi. Selain itu, Terra Sigma juga menawarkan layanan tambahan seperti telepon dan televisi kabel yang dapat diakses melalui koneksi internet. Kami berkomitmen untuk memberikan kualitas layanan yang baik kepada pelanggan dengan harga yang terjangkau. Dalam hal teknologi, Terra Sigma terus berinovasi untuk memastikan bahwa jaringan internetnya selalu cepat, stabil, dan aman.">
+	<meta name="image" content="https://terra.net.id/assets/images/terra-sigma.webp">
+
+	<!-- Schema.org for Google -->
+	<meta itemprop="name" content="Solusi Internet Cepat dan Stabil | Terra Sigma Solusi">
+	<meta itemprop="description" content="Terra Sigma merupakan perusahaan penyedia layanan internet yang beroperasi di Indonesia. Kami menawarkan berbagai paket internet dengan kecepatan yang berbeda-beda, mulai dari yang paling dasar hingga yang paling tinggi. Selain itu, Terra Sigma juga menawarkan layanan tambahan seperti telepon dan televisi kabel yang dapat diakses melalui koneksi internet. Kami berkomitmen untuk memberikan kualitas layanan yang baik kepada pelanggan dengan harga yang terjangkau. Dalam hal teknologi, Terra Sigma terus berinovasi untuk memastikan bahwa jaringan internetnya selalu cepat, stabil, dan aman.">
+	<meta itemprop="image" content="https://terra.net.id/assets/images/terra-sigma.webp">
+
+	<!-- Twitter - Product (e-commerce) -->
+	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+	<meta name="og:type" content="website">
+	<meta name="og:title" content="Solusi Internet Cepat dan Stabil | Terra Sigma Solusi">
+	<meta name="og:description" content="Terra Sigma merupakan perusahaan penyedia layanan internet yang beroperasi di Indonesia. Kami menawarkan berbagai paket internet dengan kecepatan yang berbeda-beda, mulai dari yang paling dasar hingga yang paling tinggi. Selain itu, Terra Sigma juga menawarkan layanan tambahan seperti telepon dan televisi kabel yang dapat diakses melalui koneksi internet. Kami berkomitmen untuk memberikan kualitas layanan yang baik kepada pelanggan dengan harga yang terjangkau. Dalam hal teknologi, Terra Sigma terus berinovasi untuk memastikan bahwa jaringan internetnya selalu cepat, stabil, dan aman.">
+	<meta name="og:url" content="https://terra.net.id/">
+	<meta name="og:image" content="https://terra.net.id/assets/images/terra-sigma.webp">
+	<meta name="og:site_name" content="Terra Sigma Solusi">
+	<meta name="og:locale" content="in_ID">
+
+	
+    <meta name="theme-color" content="#00155b">
+	<meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://terra.net.id/" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=5" name="viewport">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="https://terra.net.id/manifest.json">
+    <link rel="icon" sizes="192x192" href="https://terra.net.id/assets/images/icons/icon-192x192.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="https://terra.net.id/assets/images/icons/icon-192x192.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="128x128" href="https://terra.net.id/assets/images/icons/icon-128x128.png">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    	<!-- Bootstrap -->
+	<link href="https://terra.net.id/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	        
+	<!-- Fonts Awesome -->
+	<link href="https://terra.net.id/assets/fontawesome/css/all.css" rel="stylesheet">
+
+	<!-- bxSlider Javascript file -->
+	<link href="https://terra.net.id/assets/js/bxslider/jquery.bxslider.css" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+	        
+	<!-- LWD Style -->
+	<link rel="stylesheet" type="text/css" href="https://terra.net.id/assets/css/main/style.css">
+
+	<link rel="shortcut icon" type="image/ico" href="https://terra.net.id/uploads/img/other/fav.png?">
+
+	<script src="https://terra.net.id/assets/js/jquery.min.js"></script>
+</head>
+<BODY>
+	
+	<header>
+	<div class="wrap-main-header">
+		<div id="main-header">
+			<div class="container">
+				<div class="header">
+					<a href="#" class="logo">
+						<h1>XL.NET</h1>
+					</a>
+				</div>
+				<!-- header -->
+			</div>
+		<!-- main-header -->
+	</div>
+</header>
+
+<script>
+$(function() {
+	$('.dropdown-lang-toggle, .toggle-search, .search-bar').on('click', function(event) {
+		event.stopPropagation();
+	});
+
+	$('.toggle-search').on('click', function() {
+		event.preventDefault();
+		
+		$('.search-bar').slideToggle('fast').toggleClass('active');
+		$('.input-search').focus();
+	});
+
+	$('#toggle-menu').on("click", function() {
+		$('#mobile-menu').toggleClass('active');
+		$('body').toggleClass('visible-mobile-menu');
+	});
+	$('.close-mobile-menu, .menu-backdrop').on("click", function() {
+		$('body').removeClass('visible-mobile-menu');
+		$('#mobile-menu').removeClass('active');
+	});
+
+	$('.dropdown-lang-toggle').on('click', function() {
+		$('.dropdown-lang-menu').toggleClass('active');
+	});
+	
+	$(window).click(function() {
+		$('.dropdown-lang-menu').removeClass('active');
+		$('.search-bar').slideUp('fast').removeClass('active');
+	});
+});
+</script><section class="wrap-bxslider">
+	<div class="bxslider">
+					<div>
+				<a href="#">
+					<img class="img" src="https://terra.net.id/uploads/img/slider/20230405110948-slider-1.webp" alt="Slider 1">
+				</a>
+			</div>
+			</div>
+</section>
+
+<section id="about-home">
+	<div class="container">
+		 <div class="row">
+		 	<div class="col-lg-6 d-none d-lg-block">
+		 		<div class="img-about-home">
+		 			<img class="img" src="https://terra.net.id/assets/images/about-terra.webp" alt="">
+		 		</div>
+		 	</div>
+		 	<div class="col-lg-6 col-md-12">
+		 		<div class="about-home">
+		 			<div class="title-content">
+		 				<h2>Siapa Kami</h2>
+		 				<p>Dukungan 24 jam dengan layanan internet kami</p>
+		 			</div>
+		 			<div class="desc-content">
+		 				<p>Jika Anda mencari layanan internet yang andal, penting untuk mempertimbangkan tingkat dukungan yang kami berikan.</p>
+
+<p>Dengan layanan internet kami, Anda mendapatkan dukungan 24 jam untuk memastikan bahwa masalah atau kekhawatiran apa pun segera ditangani. Tim ahli kami selalu tersedia untuk menjawab pertanyaan Anda dan memberikan bantuan kapan pun Anda membutuhkannya, baik siang maupun malam hari.</p>
+		 			</div>
+		 		</div>
+		 	</div>
+		 </div>
+	</div>
+</section>
+
+<section id="price-home">
+	<div class="bg-price"></div>
+	<div class="container-custom price-container">
+		<div class="title-content center">
+			<h2>Harga Paket</h2>
+			<p class="white">Pilih paket anda</p>
+		</div>
+
+		<div class="list-price" id="area-price">
+			<div class="row justify-content-center">
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="item-price">
+                        <div class="header-item-price">
+                            <p>Akrab XXL Lokal Only 65 GB (area 4)</p>
+                            <h3>30.000/Bulan</h3>
+                        </div>
+                        <div class="body-item-price">
+                            <div class="wrap-gauge">
+                                <div class="gauge">
+                                    <span></span>
+                                    <span>65GB</span>
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="desc-item-price">
+                                <ul class="ul">
+
+
+                                                                </div>
+
+                            <a class="link-price" href="https://wa.me/6287859569780"><span>Order Now</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="item-price">
+                        <div class="header-item-price">
+                            <p>Tambah Masa Aktif XL 30 Hari </p>
+                            <h3>10.000/Bulan</h3>
+                        </div>
+                        <div class="body-item-price">
+                            <div class="wrap-gauge">
+                                <div class="gauge">
+                                    <span></span>
+                                    <span>-</span>
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="desc-item-price">
+                                <ul class="ul">
+
+                                                                </div>
+
+                            <a class="link-price" href="https://wa.me/6287859569780"><span>Order Now</span></a>
+                        </div>
+                    </div>
+                </div>
+
+									<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="item-price">
+							<div class="header-item-price">
+								<p>Wajib Ada Paket Aktif</p>
+								<h3>15.000/Bulan</h3>
+							</div>
+							<div class="body-item-price">
+								<div class="wrap-gauge">
+									<div class="gauge">
+										<span></span>
+										<span>10GB</span>
+										<span></span>
+									</div>
+								</div>
+
+								<div class="desc-item-price">
+									<ul class="ul">
+
+																	</div>
+
+								<a class="link-price" href="https://wa.me/6287859569780"><span>Order Now</span></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="item-price">
+							<div class="header-item-price">
+								<p>Wajib Ada Paket Aktif</p>
+								<h3>25.000/Bulan</h3>
+							</div>
+							<div class="body-item-price">
+								<div class="wrap-gauge">
+									<div class="gauge">
+										<span></span>
+										<span>20GB</span>
+										<span></span>
+									</div>
+								</div>
+
+								<div class="desc-item-price">
+									<ul class="ul">
+																	</div>
+
+								<a class="link-price" href="https://wa.me/6287859569780"><span>Order Now</span></a>
+							</div>
+						</div>
+					</div>
+									
+									
+</section>
+
+<section id="price-home">
+	<div class="bg-price"></div>
+	<div class="container-custom price-container">
+		<div class="title-content center">
+			<h2>Harga Paket</h2>
+			<p class="white">Pilih paket anda</p>
+		</div>
+
+		<div class="list-price" id="area-price">
+			<div class="row justify-content-center">
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="item-price">
+                        <div class="header-item-price">
+                            <p>Wajib Ada Paket Aktif</p>
+                            <h3>40.000/Bulan</h3>
+                        </div>
+                        <div class="body-item-price">
+                            <div class="wrap-gauge">
+                                <div class="gauge">
+                                    <span></span>
+                                    <span>30GB</span>
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="desc-item-price">
+                                <ul class="ul">
+
+
+                                                                </div>
+
+                            <a class="link-price" href="https://wa.me/6287859569780"><span>Order Now</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="item-price">
+                        <div class="header-item-price">
+                            <p>Wajib Ada Paket Aktif</p>
+                            <h3>50.000/Bulan</h3>
+                        </div>
+                        <div class="body-item-price">
+                            <div class="wrap-gauge">
+                                <div class="gauge">
+                                    <span></span>
+                                    <span>40GB</span>
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="desc-item-price">
+                                <ul class="ul">
+
+                                                                </div>
+
+                            <a class="link-price" href="https://wa.me/6287859569780"><span>Order Now</span></a>
+                        </div>
+                    </div>
+                </div>
+
+									<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="item-price">
+							<div class="header-item-price">
+								<p>Wajib Ada Paket Aktif</p>
+								<h3>60.000/Bulan</h3>
+							</div>
+							<div class="body-item-price">
+								<div class="wrap-gauge">
+									<div class="gauge">
+										<span></span>
+										<span>50GB</span>
+										<span></span>
+									</div>
+								</div>
+
+								<div class="desc-item-price">
+									<ul class="ul">
+
+																	</div>
+
+								<a class="link-price" href="https://wa.me/6287859569780"><span>Order Now</span></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="item-price">
+							<div class="header-item-price">
+								<p>Unlimited Turbo Ultimate Wajib Ada Flek Jika tidak ada akan disediakan flex 20K</p>
+								<h3>10.000/Bulan</h3>
+							</div>
+							<div class="body-item-price">
+								<div class="wrap-gauge">
+									<div class="gauge">
+										<span></span>
+										<span>Unli</span>
+										<span></span>
+									</div>
+								</div>
+
+								<div class="desc-item-price">
+									<ul class="ul">
+																	</div>
+
+								<a class="link-price" href="https://wa.me/6287859569780"><span>Order Now</span></a>
+							</div>
+						</div>
+					</div>
+									
+									
+</section>
+
+<script>
+$(function(){
+	$('.bxslider').bxSlider({
+		mode: 'fade',
+		auto: true,
+		pager: false,
+		prevSelector: '.btn-prev',
+		nextSelector: '.btn-next',
+  		prevText: '<i class="fa-thin fa-arrow-left"></i>',
+  		nextText: '<i class="fa-thin fa-arrow-right"></i>',
+	});
+});
+
+function area(target = null, number = null) {
+	$.ajax({
+        type     : "POST",
+        url      : "",
+        data     : "area="+target,
+        dataType : "json",
+        error    : function () {
+            alert("An error occurred");
+        },
+        success  : function(data){
+            if(data.error == false) {
+            	$('.toggle-area').removeClass('active');
+            	$('.number-area-'+number).addClass('active');
+            	$('#area-price').html(data.data);
+            }
+        }
+    });
+}
+
+var loadImg = '<img src="https://terra.net.id/assets/images/spinner.svg" width="15px" alt="" />';
+
+function toast(message, position = 'bottom|right', className = 'toast-success', duration = 3000)
+{
+	var position = position.split('|');
+
+	Toastify({
+	  text: message,
+	  duration: duration,
+	  gravity: position[0], // `top` or `bottom`
+	  position: position[1], // `left`, `center` or `right`
+	  className: className,
+	}).showToast();
+}
+
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("main-header");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+    $('.wrap-main-header').addClass('active-sticky');
+  } else {
+    header.classList.remove("sticky");
+    $('.wrap-main-header').removeClass('active-sticky');
+  }
+}
+</script>
+	<!-- </body></html> -->
+</BODY>
+</html>
